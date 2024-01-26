@@ -1,0 +1,23 @@
+.task{
+    border: 1px solid black;
+    padding: 5px;
+    margin-top: 10px;
+    width:max-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  }
+  
+.task:hover .delete-button {
+    display: block;
+}
+
+.delete-button {
+    color: white;
+    display: none;
+    background-color: red;
+    margin-left: 3px;
+    border: none;
+    
+    cursor: pointer;
+}
